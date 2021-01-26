@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>More on Vue Components</h1>
+    <h1>This is the header, and is fixed text</h1>
   </header>
 </template>
 

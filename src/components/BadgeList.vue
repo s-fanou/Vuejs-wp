@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2>Available Badges</h2>
+    <h2>Available Badges - badge list h2 fixed text</h2>
     <ul>
       <li>
         <base-badge type="admin" caption="ADMIN"></base-badge>

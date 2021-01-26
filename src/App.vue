@@ -5,9 +5,10 @@
     <badge-list></badge-list>
     <user-info
       :full-name="activeUser.name"
-      :info-text="activeUser.description"
       :role="activeUser.role"
+      :info-text="activeUser.description"
     ></user-info>
+    <p>This is a paragraph outside of any component directly in app div</p>
   </div>
 </template>
 
@@ -26,8 +27,8 @@ export default {
     return {
       activeUser: {
         name: 'Maximilian Schwarzmüller',
-        description: 'Site owner and admin',
         role: 'admin',
+        description: 'This is the info-text prop of the user-info component.',
       },
     };
   },
@@ -42,4 +43,7 @@ html {
 body {
   margin: 0;
 }
+
+p {background-color: green}
+
 </style>
