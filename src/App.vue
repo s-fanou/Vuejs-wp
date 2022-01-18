@@ -15,6 +15,10 @@ import SotMessage from './components/Message';
 export default {
   name: 'app',
   components: { SotMessage },
+  mounted() {
+    console.log("sot below are the children \n");
+    console.log(this.$children); // [VueComponent]
+  },
   data () {
     return {
       msg: 'Sot-App'
